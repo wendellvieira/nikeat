@@ -1,0 +1,42 @@
+// app global css in SCSS form
+
+@font-face {
+	font-family: Futura;
+	font-weight: bold;
+	src: url("/fonts/futura-bold.otf");
+}
+
+@font-face {
+	font-family: Futura;
+	font-weight: normal;
+	src: url("/fonts/futura-medium.otf");
+}
+
+* {
+	font-family: Futura, sans-serif;
+}
+
+body {
+	background-color: var(--q-color-primary);
+	color: #fff;
+}
+
+.container {
+	width: 100%;
+	max-width: 1140px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.flex-aling-center {
+	align-items: center;
+	justify-content: center;
+}
+
+.context {
+	background-color: #fff;
+    border-radius: 30px;
+    padding: 2em;
+    color: var(--q-color-secondary);
+    font-size: 18px;
+}
